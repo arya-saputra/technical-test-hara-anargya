@@ -1,7 +1,7 @@
-<script setup></script>
-
 <template>
-  <div class="text-lg font-bold">Hallo Folks!</div>
+  <div>
+    <RouterView></RouterView>
+  </div>
 </template>
 
 <style scoped></style>

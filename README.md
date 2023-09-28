@@ -1,4 +1,8 @@
-# Technical Test Frontend Hara Anargya
+# Technical Test Frontend Hara Anargya - M. ARYA YUDHA SAPUTRA
+
+## Candidate Info
+* Name : Arya
+* Email : m.aryayudha.s@gmail.com
 
 ## Installation
 * Fork Repo ini
