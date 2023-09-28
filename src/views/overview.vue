@@ -2,15 +2,17 @@
     <div class="text-[black]">
         <div class="tab flex justify-between w-4/12 gap-4">
             <div
-                class="w-6/12 border-[#ccc] rounded-lg border-2 p-3 cursor-pointer text-center"
+                class="w-6/12 border-[#ccc] rounded-lg border-2 p-3 cursor-pointer flex justify-between"
                 :class="tabName=='cities'? 'bg-[#deeffc] border-[navy]':'bg-white'"
                 @click="tabName='cities'">
-                Cities
+                <span>Cities</span>
+                <span v-if="tabName=='cities'" class="text-[navy]">✔</span>
             </div>
-            <div class="w-6/12 border-[#ccc] rounded-lg border-2 p-3 cursor-pointer text-center"
+            <div class="w-6/12 border-[#ccc] rounded-lg border-2 p-3 cursor-pointer flex justify-between"
                 :class="tabName=='provinces'? 'bg-[#deeffc] border-[navy]':'bg-white'"
                 @click="tabName='provinces'">
-                Provinces
+                <span>Provinces</span>
+                <span v-if="tabName=='provinces'" class="text-[navy]">✔</span>
             </div>
         </div>
         

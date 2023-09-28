@@ -9,5 +9,5 @@ import router from "./router";
 const vueApp = createApp(App)
 
 vueApp.component("Icon", Icon)
-vueApp.mount("#app");
 vueApp.use(router);
+vueApp.mount("#app");
